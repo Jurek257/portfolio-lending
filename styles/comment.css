@@ -1,0 +1,61 @@
+.comment {
+    margin-top: 92px;
+}
+
+.frame-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    height: 485px;
+}
+
+.top {
+    transform: translateY(10px);
+}
+
+.frame {
+    width: fit-content;
+}
+
+.frame-container .content,
+.top {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.frame.left {
+    align-self: flex-start;
+}
+
+.frame.right {
+    align-self: self-end;
+}
+
+.content {
+    margin-top: -90px;
+}
+
+.content>img,
+.content>h2,
+.content>.stars {
+    margin-bottom: 17px;
+}
+
+.content h2 {
+    font-size: 26px;
+    color: #374B5C;
+}
+
+.content p {
+    font-size: 16px;
+    color: #374B5C;
+    text-align: center;
+}
+
+.content p {
+    max-width: 759px;
+}
