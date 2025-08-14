@@ -1,0 +1,57 @@
+.subscribe-form {
+    margin-top: 132px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    max-width: 100%;
+}
+
+.subscribe-form form {
+    position: relative;
+}
+
+.subscribe-form>img {
+    margin-bottom: 132px;
+}
+
+.subscribe-form h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+    color: #374B5C;
+}
+
+.subscribe-form p {
+    margin-bottom: 76px;
+    font-size: 16px;
+    max-width: 518px;
+    color: #374B5C;
+}
+
+.subscribe-form form input {
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    font-size: 18px;
+    width: 350px;
+    height: 22px;
+    padding: 23px 75px;
+    padding-right: 50px;
+    right: -30px;
+    border: none;
+    text-align: left;
+    background-color: #F6F5F1;
+    border-radius: 30px;
+}
+
+.subscribe-form form button {
+    padding: 23px 37px;
+    border-radius: 30px;
+    cursor: pointer;
+    border: none;
+    background-color: #FF9100;
+    position: absolute;
+    right: 0;
+    color: #fff;
+    font-size: 18px;
+}
