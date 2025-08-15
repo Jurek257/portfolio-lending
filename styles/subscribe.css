@@ -33,11 +33,11 @@
     font-family: "Libre Baskerville", serif;
     font-weight: 400;
     font-size: 18px;
-    width: 350px;
+    width: 230px;
     height: 22px;
-    padding: 23px 75px;
-    padding-right: 50px;
-    right: -30px;
+    padding: 23px 125px;
+    padding-right: 195px;
+    left: 0;
     border: none;
     text-align: left;
     background-color: #F6F5F1;
@@ -54,4 +54,9 @@
     right: 0;
     color: #fff;
     font-size: 18px;
+}
+
+.subscribe>img {
+    float: right;
+    transform: translate(400px,-220px);
 }

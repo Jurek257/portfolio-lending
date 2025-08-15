@@ -56,11 +56,11 @@ h3 {
     color: #fff;
 }
 
-.card img {
+.offers .card img {
     max-width: 98px;
     max-height: 129px;
 }
 
-.card p {
+.offers .card p {
     max-width: 189px;
 }
