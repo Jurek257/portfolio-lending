@@ -1,0 +1,73 @@
+footer {
+    height: 22.9375rem;
+    background: url('../img/Group\ 109.svg');
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.footer-columns {
+    display: grid;
+    justify-content: start;
+    align-items: center;
+    grid-template-columns: 1.5fr 1fr 1fr;
+    padding-top: 8.375rem;
+    padding-left: 5rem;
+}
+
+footer .copyright {
+    margin-top: -3em;
+}
+
+footer .copyright .logo {
+    display: flex;
+    align-items: center;
+    gap: 1.1rem;
+    margin-bottom: 2.9375em;
+}
+
+footer .copyright .logo h2 {
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #fbfbfb;
+    font-size: 2em;
+}
+
+footer .copyright p {
+    max-width: 17.625em;
+    margin-bottom: 2.26125em;
+    font-size: 0.875em;
+    color: #fff;
+}
+
+footer .copyright h4 {
+    font-size: 0.875em;
+    color: #fff;
+    margin-bottom: 0.875em;
+}
+
+footer .footer-information h3 {
+    font-size: 1em;
+    color: #fff;
+    margin-bottom: 0.875em;
+}
+
+footer .footer-information h4 {
+    font-size: 0.875em;
+    color: #fff;
+    margin: 1.125em 0 1.125em;
+}
+
+footer .follow-us {
+    margin-top: -6em;
+}
+
+footer .follow-us h3 {
+    color: #fff;
+    margin-bottom: 0.895em;
+}
+
+footer .follow-us>img {
+    margin: 0.91em 1.258125em 0 0;
+}
