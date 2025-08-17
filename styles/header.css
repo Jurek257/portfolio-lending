@@ -2,34 +2,31 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px;
-
+    padding: 0.9375em;
 }
 
 header .logo {
     display: flex;
     align-items: center;
-    gap: 10px;
-    /* transform: translateX(-165px);
-    transform: translateY(-50px); */
+    gap: 0.625em;
 }
 
 header .logo h2 {
     font-family: "Lobster", sans-serif;
     font-weight: 400;
-    font-size: 25px;
+    font-size: 1.5625em;
     font-style: normal;
     color: #374B5C;
 }
 
 
 header button {
-    padding: 10px 20px;
+    padding: 0.625em 1.25em;
     border: 0;
-    border-radius: 10px;
+    border-radius: 625em;
     background: #FF9100;
     color: #fff;
-    font-size: 18px;
+    font-size: 1.125em;
     font-weight: 700;
     cursor: pointer;
 
