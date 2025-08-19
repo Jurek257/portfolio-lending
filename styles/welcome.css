@@ -8,21 +8,20 @@ body .hide-book {
     justify-content: center;
     align-items: center;
     text-align: center;
-    max-width: 800px;
-    gap: 17px;
+    gap: 1.0625em;
 }
 
-.welcome h2,.welcome
-h3 {
+.welcome h2,
+.welcome h3 {
     color: #374B5C;
 }
 
 .welcome h2 {
-    font-size: 39px;
+    font-size: 2.4375em;
 }
 
 .welcome h3 {
-    font-size: 22px;
+    font-size: 1.375em;
 }
 
 .welcome>img {
@@ -33,15 +32,21 @@ h3 {
 
 .offers {
     display: flex;
-    gap: 50px;
-    margin-top: 67px;
+    gap: 1rem 3.73352855%;
+    width: auto;
+    margin-top: 4.1875rem;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .offers .card {
-    width: 262px;
-    height: 305px;
-    background: url('../img/Rectangle.svg') no-repeat center/contain;
     display: flex;
+    flex: 0 0 262px;
+    width: 262px;
+    height: 19.0625rem;
+    background: url('../img/Rectangle.svg') no-repeat center/contain;
+    background-size: 16.375rem 19.0625rem;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -52,7 +57,7 @@ h3 {
     background: url('../img/Group\ 263.svg');
 }
 
-.offers .card:nth-child(2)>:is(h3,p) {
+.offers .card:nth-child(2)>:is(h3, p) {
     color: #fff;
 }
 
