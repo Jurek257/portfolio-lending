@@ -1,0 +1,25 @@
+[23-Aug-2025 07:15:19 UTC] Cron reschedule event error for hook: action_scheduler_run_queue, Error code: invalid_schedule, Error message: Event schedule does not exist., Data: {"schedule":"every_minute","args":["WP Cron"],"interval":60}
+[23-Aug-2025 07:48:09 UTC] PHP Warning:  Undefined property: WP_Ajax_Upgrader_Skin::$api in /home/yurii/Local Sites/yurii-test/app/public/wp-admin/includes/class-theme-upgrader.php on line 160
+[23-Aug-2025 08:22:29 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func(): Argument #1 ($callback) must be a valid callback, function "ecommerce_landing_page_Customize_partial_blogname" not found or invalid function name in /home/yurii/Local Sites/yurii-test/app/public/wp-includes/customize/class-wp-customize-partial.php:222
+Stack trace:
+#0 /home/yurii/Local Sites/yurii-test/app/public/wp-includes/customize/class-wp-customize-selective-refresh.php(372): WP_Customize_Partial->render(Array)
+#1 /home/yurii/Local Sites/yurii-test/app/public/wp-includes/class-wp-hook.php(324): WP_Customize_Selective_Refresh->handle_render_partials_request('')
+#2 /home/yurii/Local Sites/yurii-test/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#3 /home/yurii/Local Sites/yurii-test/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /home/yurii/Local Sites/yurii-test/app/public/wp-includes/template-loader.php(13): do_action('template_redire...')
+#5 /home/yurii/Local Sites/yurii-test/app/public/wp-blog-header.php(19): require_once('/home/yurii/Loc...')
+#6 /home/yurii/Local Sites/yurii-test/app/public/index.php(17): require('/home/yurii/Loc...')
+#7 {main}
+  thrown in /home/yurii/Local Sites/yurii-test/app/public/wp-includes/customize/class-wp-customize-partial.php on line 222
+[23-Aug-2025 08:33:28 UTC] PHP Warning:  Attempt to read property "title" on null in /home/yurii/Local Sites/yurii-test/app/public/wp-includes/class-wp-customize-widgets.php on line 926
+[23-Aug-2025 08:39:54 UTC] PHP Warning:  Attempt to read property "title" on null in /home/yurii/Local Sites/yurii-test/app/public/wp-includes/class-wp-customize-widgets.php on line 926
+[23-Aug-2025 10:00:52 UTC] PHP Warning:  Undefined array key "id" in /home/yurii/Local Sites/yurii-test/app/public/wp-content/plugins/elementor/includes/managers/image.php on line 41
+[23-Aug-2025 10:00:52 UTC] PHP Warning:  Undefined array key "id" in /home/yurii/Local Sites/yurii-test/app/public/wp-content/plugins/elementor/includes/managers/image.php on line 41
+[23-Aug-2025 10:00:52 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/yurii/Local Sites/yurii-test/app/public/wp-content/plugins/elementor/includes/managers/image.php on line 113
+[23-Aug-2025 10:00:52 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/yurii/Local Sites/yurii-test/app/public/wp-content/plugins/elementor/includes/managers/image.php on line 113
+[23-Aug-2025 10:00:52 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/yurii/Local Sites/yurii-test/app/public/wp-content/plugins/elementor/includes/managers/image.php on line 113
+[23-Aug-2025 10:00:52 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/yurii/Local Sites/yurii-test/app/public/wp-content/plugins/elementor/includes/managers/image.php on line 113
+[23-Aug-2025 10:00:52 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/yurii/Local Sites/yurii-test/app/public/wp-content/plugins/elementor/includes/managers/image.php on line 113
+[23-Aug-2025 10:00:52 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/yurii/Local Sites/yurii-test/app/public/wp-content/plugins/elementor/includes/managers/image.php on line 113
+[23-Aug-2025 10:00:52 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/yurii/Local Sites/yurii-test/app/public/wp-content/plugins/elementor/includes/managers/image.php on line 113
+[23-Aug-2025 10:00:52 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/yurii/Local Sites/yurii-test/app/public/wp-content/plugins/elementor/includes/managers/image.php on line 113
